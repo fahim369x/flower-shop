@@ -43,3 +43,65 @@
 .header-flowe-img {
   float: right;
 }
+.featureImg {
+  margin: 50px;
+}
+
+.feature-itemImg1 {
+  background-image: url("./flower-asset/pngwing\ 6.png");
+  background-repeat: no-repeat;
+  background-size: 28vh;
+  background-position: center bottom;
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 300px;
+  height: 380px;
+  border-radius: 300px 300px 0px 0px;
+}
+.feature-itemImg2 {
+  background-image: url("./flower-asset/pngwing\ 5.png");
+  background-repeat: no-repeat;
+  background-size: 32vh;
+  background-color: rgba(33, 167, 73, 0.15);
+  width: 300px;
+  height: 380px;
+  border-radius: 300px 300px 0px 0px;
+  background-position: center;
+}
+.feature-itemImg3 {
+  background-image: url("./flower-asset/pngwing\ 7.png");
+  background-repeat: no-repeat;
+  background-size: 28vh;
+  background-color: rgba(197, 119, 16, 0.15);
+  width: 300px;
+  height: 380px;
+  border-radius: 300px 300px 0px 0px;
+  background-position: center bottom;
+}
+
+.feature-flower-item-section {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-flower-item-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.feature-flower-heading {
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.feature-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.feature-heading-title {
+  padding-bottom: 20px;
+}
