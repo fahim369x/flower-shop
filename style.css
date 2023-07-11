@@ -10,7 +10,7 @@
 .header-section {
   width: 100%;
   height: 750px;
-  background: rgb(255, 221, 241);
+  background: rgb(220, 196, 255);
   display: flex;
 }
 .header-left-title {
@@ -27,7 +27,7 @@
 .description {
   color: rgba(20, 19, 19, 0.6);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 500; /* -----whole site description */
   line-height: 30px;
   padding: 35px 0 35px 0;
 }
@@ -44,12 +44,13 @@
   background: #f76786;
   padding: 17px 40px;
   color: rgb(243, 243, 243);
-  border: none;
+  border: none; /*whole site btn style*/
   border-radius: 50px;
   font-size: 17px;
   cursor: pointer;
 }
 
+/* wedding packages section feature start from here */
 .wedding-package {
   text-align: center;
   justify-content: center;
@@ -94,20 +95,24 @@
 
 .flower-wedding-headingh1 {
   font-size: 30px;
-}
+} /* wedding packages section feature end from here */
+/*feature section start from here*/
 .featureImg {
   width: 300px;
   height: 370px;
   border-radius: 300px 300px 0px 0px;
 }
 .feature-items1 {
-  background-color: rgba(167, 33, 98, 0.15);
+  background-color: rgba(255, 173, 213, 0.521);
+  box-shadow: 0px 10px 15px rgb(121, 121, 121);
 }
 .feature-items2 {
-  background-color: rgba(44, 167, 33, 0.15);
+  background-color: rgba(178, 255, 171, 0.404);
+  box-shadow: 0px 10px 15px rgb(121, 121, 121);
 }
 .feature-items3 {
-  background-color: rgba(211, 19, 112, 0.15);
+  background-color: rgba(170, 247, 253, 0.445);
+  box-shadow: 0px 10px 15px rgb(121, 121, 121);
 }
 
 .featureImg img {
@@ -130,7 +135,7 @@
   font-weight: 700;
   cursor: pointer;
 }
-.feature-flower-item-title:hover {
+.feature-flower-item-title:hover { /*mouse hover*/
   text-decoration: none;
 }
 .feature-flower-heading {
@@ -152,6 +157,9 @@
   font-size: 40px;
   color: #3d3c3c;
 }
+
+/*feature section end from here*/
+/*customer care section start from here*/
 .customerCare-section > img {
   width: 88px;
   height: 88px;
@@ -170,15 +178,15 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #b3afaf;
+  background-color: #d9d1ff49;
   width: 1100px;
   margin: auto;
   margin-top: 140px;
   border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
   height: 250px;
 }
-
+/*customer care section end from here*/
+/*sale off section start from here*/
 .off-style {
   color: #ec5979;
 }
@@ -187,7 +195,7 @@
   width: 100%;
   height: 350px;
   margin-top: 140px;
-  background-color: #fce3f1;
+  background-color: #dcc4ff46;
   justify-content: center;
   align-items: center;
 }
@@ -199,7 +207,8 @@
 .saleOffer-left-section {
   text-align: center;
 }
-
+/*sale off section end from here*/
+/*social media instagram section start from here*/
 .instagram-heading {
   text-align: center;
 }
@@ -216,6 +225,7 @@
   width: 250px;
   height: 300px;
 }
+/*subscribe-option-section start from here*/
 .subscribe-option-section {
   margin-top: 100px;
 }
@@ -242,6 +252,8 @@
   background: #fff;
 }
 
+/*subscribe-option-section end from here*/
+/*footer section start from here*/
 footer {
   background: #080808;
   width: 100%;
@@ -264,3 +276,5 @@ footer {
   font-weight: 400;
   padding: 20px;
 }
+
+/*footer section end from here*/
