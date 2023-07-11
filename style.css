@@ -24,7 +24,7 @@
   font-weight: 800;
 }
 
-.header-description {
+.description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
@@ -40,15 +40,13 @@
   border-radius: 8px;
   font-size: 15px;
 }
-.header-flowe-img {
-  float: right;
-}
+
 .featureImg {
   margin: 50px;
 }
 
 .feature-itemImg1 {
-  background-image: url("./flower-asset/pngwing\ 6.png");
+  background-image: url("./flower-asset/pngwing6.png");
   background-repeat: no-repeat;
   background-size: 28vh;
   background-position: center bottom;
@@ -58,7 +56,7 @@
   border-radius: 300px 300px 0px 0px;
 }
 .feature-itemImg2 {
-  background-image: url("./flower-asset/pngwing\ 5.png");
+  background-image: url("./flower-asset/pngwing5.png");
   background-repeat: no-repeat;
   background-size: 32vh;
   background-color: rgba(33, 167, 73, 0.15);
@@ -68,7 +66,7 @@
   background-position: center;
 }
 .feature-itemImg3 {
-  background-image: url("./flower-asset/pngwing\ 7.png");
+  background-image: url("./flower-asset/pngwing7.png");
   background-repeat: no-repeat;
   background-size: 28vh;
   background-color: rgba(197, 119, 16, 0.15);
@@ -104,4 +102,49 @@
 
 .feature-heading-title {
   padding-bottom: 20px;
+}
+.customerCare-section > img {
+  width: 88px;
+  height: 88px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
+}
+
+.customer-care-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.customer-care-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #b3afaf;
+  width: 1100px;
+  margin: auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  height: 250px;
+}
+
+.off-style {
+  color: #ec5979;
+}
+.saleOffer-section {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  background-color: #b3afaf;
+  justify-content: center;
+  align-items: center;
+}
+
+.saleofferImg {
+  width: 200px;
+}
+
+.saleOffer-left-section {
+  text-align: center;
 }
